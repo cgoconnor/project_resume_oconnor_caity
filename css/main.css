@@ -85,6 +85,14 @@ h5 {
     border-bottom: 1px rgba(241, 109, 124,.7) solid;
 }
 
+section {
+    padding: 1rem 0;
+}
+
+#experience {
+    padding: 0 0 1rem;
+}
+
 h4,
 .dates,
 ul,
