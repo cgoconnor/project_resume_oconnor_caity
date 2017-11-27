@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 h1,
 h2,
 h3,
@@ -37,7 +45,7 @@ img,
 #summary {
     background-color: rgba(255, 255, 255, .5);
     margin: auto;
-    width: 80%;
+    width: 94%;
     padding: 1rem;
 }
 
@@ -79,7 +87,7 @@ h3,
 h4,
 .dates,
 h5 {
-    width: 80%;
+    width: 94%;
     margin: auto;
     padding: 1rem 1rem .5rem;
     border-bottom: 1px rgba(241, 109, 124,.7) solid;
@@ -107,8 +115,8 @@ h5 {
 
 ul,
 h5 {
-    padding-left: 4rem;
-    width: 80%;
+    padding-left: 2.5rem;
+    width: 94%;
     margin: auto;
 }
 
@@ -125,4 +133,15 @@ li {
 h5 {
     text-transform: uppercase;
     padding-left: 2.8rem;
+}
+
+/* ---- Media Queries ---- */
+
+@media (min-width: 400px) {
+    #skills ul,
+    #interests ul {
+        width: 40%;
+        display: inline-block;
+        padding: .5rem 1rem;
+    }
 }
