@@ -10,7 +10,8 @@ html {
     background: rgba(241, 109, 124,.5);
 }
 
-.desktop-only {
+.desktop-only,
+.hide {
     display: none;
 }
 
