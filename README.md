@@ -1,5 +1,5 @@
 # Resume
 
 ##Links
-* https://github.com/russellgoldenberg/scrollama
-* https://github.com/zurb/reactive-listener
+* https://github.com/jschr/textillate
+* http://inorganik.github.io/countUp.js/
